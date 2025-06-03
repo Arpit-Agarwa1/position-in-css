@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-1 {
+  width: 50%;
+  height: 100%;
+  border: 2px solid #fff;
+  background-color: purple;
+}
+.sec-2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blocks {
+  width: 33%;
+  height: 250px;
+  background-color: orangered;
+  border: 2px solid white;
+}
