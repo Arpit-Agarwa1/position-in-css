@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  transform: rotate(0deg);
+}
+.wings {
+  width: 300px;
+  height: 30px;
+  background-color: black;
+}
+
+.one {
+  transform: rotate(90deg);
+  position: absolute;
+  top: -132px;
+}
+.two {
+  position: absolute;
+  transform: rotate(90deg);
+
+  background-color: black;
+  bottom: -132px;
+}
+.three {
+  position: absolute;
+  background-color: black;
+  top: 120px;
+  right: 270px;
+}
+
+.four {
+  position: absolute;
+  background-color: black;
+  top: 120px;
+  left: 270px;
+}
+
+.circle:hover {
+  transform: rotate(3600deg);
+  transition: 20s ease-in;
+}
