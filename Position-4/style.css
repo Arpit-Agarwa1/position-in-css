@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cell {
+  width: 350px;
+  height: 200px;
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+  color: white;
+}
+.red {
+  width: 10%;
+  height: 100%;
+  background-color: red;
+  border-radius: 30px;
+}
+.tip {
+  width: 5%;
+  height: 10%;
+  background-color: white;
+  position: absolute;
+  right: 240px;
+  top: 310px;
+  border-radius: 30px;
+}
+
+.red:hover {
+  width: 100%;
+  background-color: green;
+  transition: 5s;
+}
